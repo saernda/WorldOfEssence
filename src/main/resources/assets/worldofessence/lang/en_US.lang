@@ -1,0 +1,20 @@
+//Items
+
+item.Carbon.name=Carbon
+item.PureWater.name=Pure Water
+item.RunicEssenceTablet.name=Essence Tablet
+item.EmptyEssence.name=Empty Essence
+
+item.FireEssence.name=Fire Essence
+item.EarthEssence.name=Earth Essence
+item.AirEssence.name=Air Essence
+item.WaterEssence.name=Water Essence
+
+item.LavaEssence.name=Lava Essence
+item.AlcoholEssence.name=Alcohol Essence
+item.EnergyEssence.name=Energy Essence
+item.DustEssence.name=Dust Essence
+
+//Blocks
+
+tile.Altar.name=Altar
