@@ -49,10 +49,12 @@ public class AllRecipes {
 			"xxx", "xyx", "xxx", 'x', Items.glowstone_dust,'y', Items.water_bucket);
 		
 		GameRegistry.addRecipe(new ItemStack(BlocksClass.Altar, 1),
-			"xxx", "xyx", "xxx", 'x', ItemsClass.PureWater, 'y', Blocks.emerald_block);
+			"xxx", "xyx", "xxx", 'x', ItemsClass.PureWater, 'y', Blocks.enchanting_table);
 		
 		GameRegistry.addRecipe(new ItemStack(ItemsClass.EmptyEssence, 4),
 				"yxy", "xzx", "yxy", 'x', ItemsClass.PureWater,'y', Items.blaze_powder, 'z', Blocks.stone);
+		GameRegistry.addRecipe(new ItemStack(ItemsClass.RingFly, 1),
+				"xxx", "xyx", "xzx", 'x', Items.leather, 'y', Items.nether_star, 'z', ItemsClass.AirEssence);
 	}
 	
 	public static void addEssenceRecipes() {

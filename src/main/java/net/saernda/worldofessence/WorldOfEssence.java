@@ -20,6 +20,7 @@ public class WorldOfEssence
     public static CommonProxy proxy;
     
     public static final WorldOfEssenceTabs tabWorldOfEssence = new WorldOfEssenceTabs("tabWorldOfEssence");
+    public static final WorldOfEssenceTabsEss tabWorldOfEssenceEss = new WorldOfEssenceTabsEss("tabWorldOfEssenceEss");
     
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {

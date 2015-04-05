@@ -9,8 +9,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import net.saernda.worldofessence.gui.Gui_Test;
 
-
-
 public class ItemRunicEssenceTablet extends Item{
 	
 	@Override

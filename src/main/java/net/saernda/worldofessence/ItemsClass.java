@@ -1,6 +1,7 @@
 package net.saernda.worldofessence;
 
 import net.minecraft.item.Item;
+import net.saernda.worldofessence.items.ItemRingFly;
 import net.saernda.worldofessence.items.ItemRunicEssenceTablet;
 
 public class ItemsClass {
@@ -24,6 +25,8 @@ public class ItemsClass {
 	public static Item AshEssence;
 	public static Item LifeEssence;
 	public static Item PlasmaEssence;
+
+	public static Item RingFly;
     
     public static void init() {
     	RunicEssenceTablet = new ItemRunicEssenceTablet().setUnlocalizedName("RunicEssenceTablet").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
@@ -31,20 +34,22 @@ public class ItemsClass {
     	PureWater = new Item().setUnlocalizedName("PureWater").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
     	EmptyEssence = new Item().setUnlocalizedName("EmptyEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
     	
-    	FireEssence = new Item().setUnlocalizedName("FireEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
-    	EarthEssence = new Item().setUnlocalizedName("EarthEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
-    	AirEssence = new Item().setUnlocalizedName("AirEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
-    	WaterEssence = new Item().setUnlocalizedName("WaterEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
+    	FireEssence = new Item().setUnlocalizedName("FireEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssenceEss);
+    	EarthEssence = new Item().setUnlocalizedName("EarthEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssenceEss);
+    	AirEssence = new Item().setUnlocalizedName("AirEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssenceEss);
+    	WaterEssence = new Item().setUnlocalizedName("WaterEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssenceEss);
 		
-		LavaEssence = new Item().setUnlocalizedName("LavaEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
-		AlcoholEssence = new Item().setUnlocalizedName("AlcoholEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
-		EnergyEssence = new Item().setUnlocalizedName("EnergyEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
-		DustEssence = new Item().setUnlocalizedName("DustEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
-		SteamEssence = new Item().setUnlocalizedName("SteamEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
-		SwampEssence = new Item().setUnlocalizedName("SwampEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
-		AshEssence = new Item().setUnlocalizedName("AshEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
-		LifeEssence = new Item().setUnlocalizedName("LifeEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
-		PlasmaEssence = new Item().setUnlocalizedName("PlasmaEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
+		LavaEssence = new Item().setUnlocalizedName("LavaEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssenceEss);
+		AlcoholEssence = new Item().setUnlocalizedName("AlcoholEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssenceEss);
+		EnergyEssence = new Item().setUnlocalizedName("EnergyEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssenceEss);
+		DustEssence = new Item().setUnlocalizedName("DustEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssenceEss);
+		SteamEssence = new Item().setUnlocalizedName("SteamEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssenceEss);
+		SwampEssence = new Item().setUnlocalizedName("SwampEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssenceEss);
+		AshEssence = new Item().setUnlocalizedName("AshEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssenceEss);
+		LifeEssence = new Item().setUnlocalizedName("LifeEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssenceEss);
+		PlasmaEssence = new Item().setUnlocalizedName("PlasmaEssence").setCreativeTab(WorldOfEssence.tabWorldOfEssenceEss);
+
+		RingFly = new ItemRingFly().setUnlocalizedName("RingFly").setCreativeTab(WorldOfEssence.tabWorldOfEssence);
     }
     
     public static void register() {
@@ -67,6 +72,8 @@ public class ItemsClass {
     	RegisterRe.RegisterItem(AshEssence);
     	RegisterRe.RegisterItem(LifeEssence);
     	RegisterRe.RegisterItem(PlasmaEssence);
+
+		RegisterRe.RegisterItem(RingFly);
     }
     
 	public static void registerRenders() {
@@ -89,6 +96,8 @@ public class ItemsClass {
 		RegisterRe.registerRenderItem(AshEssence);
 		RegisterRe.registerRenderItem(LifeEssence);
 		RegisterRe.registerRenderItem(PlasmaEssence);
+
+		RegisterRe.registerRenderItem(RingFly);
 	}
 
 }
