@@ -1,0 +1,978 @@
+   	Air
+
+   	Fire
+
+   	Water
+
+   	Alcohol
+
+    Fire + Water
+
+    Dust
+
+    Air + Earth
+
+    Energy
+
+    Air + Fire
+
+    Lava
+
+    Fire + Earth
+
+Steam
+
+Air + Water
+
+Swamp
+
+Earth + Water
+
+Ash
+
+Fire + Dust
+
+Life
+
+Swamp + Energy
+
+Plasma
+
+Fire + Energy
+
+Stone
+
+Lava + Water
+
+Storm
+
+Air + Energy
+
+Vodka
+
+Water + Alcohol
+
+Bacteria
+
+Swamp + Life
+
+Egg
+
+Life + Stone
+
+Ghost
+
+Ash + Life
+
+Metal
+
+Stone + Fire
+
+Sand
+
+Air + Stone
+
+Weeds
+
+Water + Life
+
+Bird
+
+Air + Egg
+
+Boiler
+
+Metal + Steam
+
+Clay
+
+Sand + Swamp
+
+Dinosaur
+
+Earth + Egg
+
+Electricity
+
+Energy + Metal
+
+Glass
+
+Fire + Sand
+
+Lizard
+
+Egg + Swamp
+
+Moss
+
+Weeds + Swamp
+
+Mushroom
+
+Earth + Weed
+
+Plankton
+
+Water + Bacteria
+
+Quicksilver
+
+Metal + Water
+
+Seeds
+
+Life + Sand
+
+Sulfur
+
+Swamp + Bacteria
+
+Turtle
+
+Sand + Egg
+
+Worm
+
+Swamp + Bacteria
+
+Beast
+
+Lizard + Earth
+
+Beetle
+
+Earth + Worm
+
+Bricks
+
+Clay + Fire
+
+Butterfly
+
+Air + Worm
+
+Coffee
+
+Energy + Seeds
+
+Dragon
+
+Dinosaur + Fire
+
+Fern
+
+Swamp + Moss
+
+Golem
+
+Life + Clay
+
+Grass
+
+Earth + Moss
+
+Phoenix
+
+Fire + Bird
+
+Shell
+
+Stone + Plankton
+
+Snake
+
+Worm + Swamp
+
+Thunder Bird
+
+Storm + Bird
+
+Tree
+
+Earth + Seed
+
+Coal
+
+Fire + Tree
+
+Fish
+
+Water + Snake
+
+Human
+
+Golem + Life
+
+Human
+
+Beast + Life
+
+Limestone
+
+Stone + Shell
+
+Palmtree
+
+Sand + Tree
+
+Reed
+
+Swamp + Grass
+
+Scorpion
+
+Sand + Beetle
+
+Tobacco
+
+Fire + Grass
+
+Treant
+
+Tree + Life
+
+Alcoholic
+
+Alcohol + Human
+
+Blood
+
+Dinosaur + Human
+
+Cement
+
+Limestone + Clay
+
+Ceramics
+
+Human + Clay
+
+Corpse
+
+Human + Fire
+Human + Poison
+
+Dolphin
+
+Fish + Beast
+
+Domestic Animal
+
+Beast + Human
+
+Hut
+
+Human + Stone
+
+Oil
+
+Coal + Water
+
+Sex
+
+Human + Human
+
+Steam-Engine
+
+Coal + Boiler
+
+Tools
+
+Human + Metal
+
+Whale
+
+Fish + Plankton
+
+Wizard
+
+Human + Energy
+
+Concrete
+
+Cement + Water
+
+Demigod
+
+Energy + Wizard
+
+Field
+
+Tools + Earth
+
+Meat
+
+Human + Domestic Animal
+
+Milk
+
+Human + Domestic Animal
+
+Paper
+
+Tools + Reed
+
+Poison
+
+Tools + Snake
+
+Vampire
+
+Blood + Human
+
+Weapon
+
+Tools + Metal
+
+Wood
+
+Tree + Tools
+
+Wool
+
+Human + Domestic Animal
+
+Zombie
+
+Corpse + Life
+
+Boat
+
+Wood + Water
+
+Cigarette
+
+Tobacco + Paper
+
+Fabric
+
+Wool + Tools
+
+Fertilizer
+
+Grass + Domestic Animal
+
+Ghoul
+
+Zombie + Corpse
+
+House
+
+Bricks + Concrete
+
+Hunter
+
+Human + Weapons
+
+Philosopher’S Stone
+
+Demigod + Quicksilver
+
+Poisoned Weapon
+
+Weapon + Poison
+
+Werewolf
+
+Beast + Vampire
+
+Wheat
+
+Seeds + Field
+
+Wheel
+
+Wood + Tools
+
+Assassin
+
+Poisoned Weapon + Human
+
+Beer
+
+Wheat + Alcohol
+
+Cart
+
+Wood + Wheel
+
+Clothes
+
+Human + Fabric
+
+Feather
+
+Hunter + Bird
+
+Flour
+
+Wheat + Stone
+
+Gold
+
+Philosopher’s Stone + Metal
+
+Saltpetre
+
+Limestone + Fertilizer
+
+Ship
+
+Boat + Wood
+
+Skyscraper
+
+Glass + House
+
+Warrior
+
+Hunter + Weapon
+
+Book
+
+Paper + Feather
+
+Car
+
+Cart + Oil
+
+Chariot
+
+Cart + Beast
+
+Dough
+
+Water + Flour
+
+Frigate
+
+Ship + Fabric
+
+Gunpowder
+
+Saltpetre + Sulfur
+
+Hero
+
+Warrior + Dragon
+
+Lightbulb
+
+Void + Glass
+
+Locomotive
+
+Cart + Steam Engine
+
+Radio Wave
+
+Void + Electricity
+
+Steam Ship
+
+Steam Engine + Ship
+
+Sun
+
+Void + Plasma
+
+Airplane
+
+Car + Air
+
+Bread
+
+Dough + Fire
+
+Firearm
+
+Gunpowder + Weapon
+
+Flower
+
+Sun + Grass
+
+Laser
+
+Radio Wave + Fire
+
+Radiation
+
+Radio Wave + Radio Wave
+
+Tv
+
+Lightbulb + Radio Waves
+
+Apple
+
+Tree + Flower
+
+Cd
+
+Laser + Book
+
+Computer
+
+Tv + Book
+
+Plutonium
+
+Radiation + Metal
+
+Rocket
+
+Void + Airplane
+
+Sunflower
+
+Sun + Flower
+
+Cellphone
+
+Computer + Radio Wave
+
+Cyborg
+
+Human + Computer
+
+Internet
+
+Computer + Computer
+
+Nuclear Weapon
+
+Plutonium + Weapon
+
+Satellite
+
+Rocket + Void
+
+Religion
+
+Human + Commandments
+
+Law
+
+Human + Religion
+
+Sin
+
+Human + Religion
+
+Fun
+
+Human + Sex
+
+Knowledge
+
+Human + Book
+
+Scientist
+
+Human + Knowledge
+
+Cat
+
+Beast + House
+
+Dog
+
+Beast + House
+
+Octopus
+
+Knowledge + Fish
+
+Medicine
+
+Bacteria + Knowledge
+
+Mechanism
+
+Tools + Law
+
+Antibiotics
+
+Bacteria + Medicine
+
+Money
+
+Paper + Gold
+
+Work
+
+Human + Money
+
+Games
+
+Law + Fun
+
+Pirate
+
+Ship + Alcoholic
+
+Rum
+
+Pirate + Vodka
+
+Tavern
+
+House + Alcoholic
+
+Astronaut
+
+Human + Rocket
+
+Soldier
+
+Firearm + Warrior
+
+Policeman
+
+Law + Soldier
+
+Alien
+
+Void + Life
+
+Ant
+
+Work + Beetle
+
+Death Metal
+
+Electricity + Corpse
+
+Typewriter
+
+Mechanism + Book
+
+Journalist
+
+Human + Typewriter
+
+B-52
+
+Coffee + Vodka
+
+Sugar
+
+Reed + Field
+
+Cookies
+
+Bread + Sugar
+
+Pie
+
+Apple + Dough
+
+Virus
+
+Human + Bacteria
+
+Hacker
+
+Computer + Virus
+
+Ufo
+
+Alien + Rocket
+
+Bank
+
+Money + Skyscraper
+
+Caviar
+
+Fish + Eggs
+
+Music
+
+Human + Reed
+
+Sea
+
+Water + Water
+
+Rock N’ Roll
+
+Music + Alcohol
+
+Salt
+
+Sun + Sea
+
+Russian Roulette
+
+Vodka + Firearm
+
+Debt
+
+Bank + Money
+
+Molotov Cocktail
+
+Vodka + Fire
+
+Credit Card
+
+Money + Debt
+
+Rat
+
+Medicine + Beast
+
+Hangover
+
+Vodka + Beer
+
+Tequila
+
+Alcohol + Worm
+
+Ice
+
+Water + Glass
+
+Ice Cream
+
+Ice + Milk
+
+Absinthe
+
+Alcohol + Grass
+
+Censored (Really)
+
+Pie + Sex
+
+White Russian
+
+Vodka + Milk
+
+Freezer
+
+Mechanism + Ice
+
+Clock
+
+Sand + Glass
+
+Cheese
+
+Milk + Bacteria
+
+Magic + Void
+
+Light + Darkness
+
+Spell
+
+Magic + Knowledge
+
+Unicorn
+
+Magic + Beast
+
+Potion
+
+Magic + Water
+
+Scroll
+
+Magic + Paper
+
+Priest
+
+Magic + Religion
+
+Bard
+
+Magic + Music
+
+Dragon
+
+Magic + Egg
+
+Chaos+Order
+
+Void + Life
+
+Astral
+
+Void + Chaos
+
+Illithid
+
+Astral + Death
+
+Wand
+
+Magic + Weapon
+
+Elf
+
+Magic + Human
+
+Drow
+
+Elf + Darkness
+
+Mithril
+
+Metal + Elf
+
+Adamantite
+
+Metal + Drow
+
+Armor
+
+Metal + Human
+
+Silver
+
+Metal + Astral
+
+Castle
+
+House + Armor
+
+Tower
+
+House + Wizard
+
+Bow
+
+Weapon + Elf
+
+Sword+Crossbow
+
+Weapon + Human
+
+Wand
+
+Weapon + Wizard
+
+Mace
+
+Weapon + Priest
+
+Claws
+
+Weapon + Beast
+
+Shadow
+
+Light + Darkness
+
+Death
+
+Energy + Darkness
+
+Paladin
+
+Priest + Warrior
+
+Prayer
+
+Priest + Magic
+
+Healing
+
+Priest + Prayer
+
+Resurrection
+
+Healing + Death
+
+Druid
+
+Human + Tree
+
+Half-Elf
+
+Human + Elf
+
+Orc+Goblin
+
+Human + Swamp
+
+Dwarf
+
+Human + Earth
+
+Dwarf
+
+Human + Rock
+
+Axe+Hammer
+
+Dwarf + Weapon
+
+Duergar
+
+Dwarf + Darkness
+
+Demon
+
+Beast + Darkness
+
+Underground
+
+Darkness + Earth
+
+Drow
+
+Underground + Elf
+
+Demon+Corpse
+
+Demon + Warrior
+
+Demon+Corpse
+
+Demon + Wizard
+
+Demon+Ghost
+
+Demon + Human
+
+Teleport
+
+Spell + Astral
+
+Cone Of Cold
+
+Spell + Ice
+
+Fireball
+
+Spell + Fire
+
+Illusion
+
+Spell + Air
+
+Spell Book
+
+Spell + Book
+
+Necromancer
+
+Zombie + Wizard
+
+Modron
+
+Life + Mechanism
+
+Angel
+
+Life + Light
+
+Rogue
+
+Law + Assassin

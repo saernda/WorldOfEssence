@@ -23,5 +23,4 @@ public class ItemRingFly extends Item{
         }
         return super.onItemRightClick(itemStackIn, worldIn, playerIn);
     }
-
 }
