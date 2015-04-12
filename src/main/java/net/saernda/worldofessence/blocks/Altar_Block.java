@@ -41,11 +41,30 @@ public class Altar_Block extends Block {
 		double d0;
 		double d1;
 		double d2;
+		for(i = 0; i < 56; ++i) {
+			d0 = (double)pos.getX();
+			d1 = (double)pos.getY() + 1D + rand.nextDouble() * 1D;
+			d2 = (double)pos.getZ() + 0.5D;
+			worldIn.spawnParticle(EnumParticleTypes.REDSTONE, d0, d1, d2, 0.0D, 0.0D, 0.0D, null);
+
+		}
+		for(i = 0; i < 54; ++i) {
+			d0 = (double)pos.getX() + 0.5;
+			d1 = (double)pos.getY() + 1D + rand.nextDouble() * 1D;
+			d2 = (double)pos.getZ();
+			worldIn.spawnParticle(EnumParticleTypes.REDSTONE, d0, d1, d2, 0.0D, 0.0D, 0.0D, null);
+		}
+		for(i = 0; i < 52; ++i) {
+			d0 = (double)pos.getX() + 1.0D;
+			d1 = (double)pos.getY() + 1D + rand.nextDouble() * 1D;
+			d2 = (double)pos.getZ() + 0.5D;
+			worldIn.spawnParticle(EnumParticleTypes.REDSTONE, d0, d1, d2, 0.0D, 0.0D, 0.0D, null);
+		}
 		for(i = 0; i < 50; ++i) {
 			d0 = (double)pos.getX() + 0.5D;
 			d1 = (double)pos.getY() + 1D + rand.nextDouble() * 1D;
-			d2 = (double)pos.getZ() + 0.5D;
-			worldIn.spawnParticle(EnumParticleTypes.FLAME, d0, d1, d2, 0.0D, 0.0D, 0.0D, null);
+			d2 = (double)pos.getZ() + 1D;
+			worldIn.spawnParticle(EnumParticleTypes.REDSTONE, d0, d1, d2, 0.0D, 0.0D, 0.0D, null);
 		}
 		return super.onBlockActivated(worldIn, pos, state, playerIn, side, hitX, hitY, hitZ);
 	}

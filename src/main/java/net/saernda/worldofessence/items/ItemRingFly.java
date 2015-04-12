@@ -4,6 +4,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.saernda.worldofessence.soundHandler;
 
 
@@ -23,4 +24,5 @@ public class ItemRingFly extends Item{
         }
         return super.onItemRightClick(itemStackIn, worldIn, playerIn);
     }
+
 }
