@@ -1,3 +1,25 @@
+   	Air
+
+   	Fire
+
+   	Water
+
+   	Alcohol
+
+    Fire + Water
+
+    Dust
+
+    Air + Earth
+
+    Energy
+
+    Air + Fire
+
+    Lava
+
+    Fire + Earth
+
 Steam
 
 Air + Water
