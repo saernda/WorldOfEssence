@@ -12,7 +12,10 @@ import net.saernda.worldofessence.WorldOfEssence;
 public class Gui_Test extends GuiScreen{
 	
 	int guiWidth = 256;
-	int guiHeight = 256;
+	int guiHeight = 246;
+
+	int tabWidth = 10;
+	int tabHeight = 10;
 	
 	@Override
 	public void drawScreen(int x, int y, float ticks) {
@@ -25,7 +28,8 @@ public class Gui_Test extends GuiScreen{
 		
 		//Draw Mics
 		drawTexturedModalRect(guiX, guiY, 0, 0, guiWidth, guiHeight);
-		
+		drawTexturedModalRect(guiX + 10, guiY + 10, 0, 246, tabWidth, tabHeight);
+
 		//Text
 		fontRendererObj.drawString("Welcome", guiX + 110, guiY + 47, 0xffffff);
 		

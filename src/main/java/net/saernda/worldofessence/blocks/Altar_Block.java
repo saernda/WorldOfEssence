@@ -8,6 +8,8 @@ import net.minecraft.util.BlockPos;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.client.FMLClientHandler;
+import net.saernda.worldofessence.gui.Gui_Test;
 
 import java.util.Random;
 
@@ -35,6 +37,8 @@ public class Altar_Block extends Block {
 	@Override
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumFacing side, float hitX, float hitY, float hitZ) {
 		//playerIn.addChatMessage(new ChatComponentText("you clicked the Altar"));
+
+		FMLClientHandler.instance().displayGuiScreen(playerIn, new Gui_Test());
 
 		int i;
 
